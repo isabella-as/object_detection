@@ -1,0 +1,4 @@
+# Ignore massive raw dataset tracks
+my_kitti_data/training/
+my_kitti_data/testing/
+detection_algorithm/OpenPCDet/
