@@ -1,0 +1,8 @@
+FROM ros:foxy-ros1-bridge-focal
+
+COPY bridge_files/bridge_entrypoint.sh /bridge_entrypoint.sh
+RUN chmod +x /bridge_entrypoint.sh
+
+COPY bridge_files/bridge.yaml /bridge.yaml
+
+ENTRYPOINT ["/bridge_entrypoint.sh"]

@@ -1,0 +1,9 @@
+topics:
+  -
+    topic: /lidar_points
+    type: sensor_msgs/msg/PointCloud2
+    queue_size: 10
+  -
+    topic: /detection_boxes_3d
+    type: visualization_msgs/msg/MarkerArray
+    queue_size: 10

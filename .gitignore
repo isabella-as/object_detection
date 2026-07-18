@@ -2,3 +2,4 @@
 my_kitti_data/training/
 my_kitti_data/testing/
 detection_algorithm/OpenPCDet/
+pointclouds_and_bridge/my_kitti_data/
